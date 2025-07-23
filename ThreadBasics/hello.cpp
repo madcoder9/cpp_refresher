@@ -8,6 +8,7 @@ void hello() {
 }
 
 int main() {
+
 	// Create an std::thread object
 	// Pass the entry point function to the constructor
 	std::thread thr(hello);
