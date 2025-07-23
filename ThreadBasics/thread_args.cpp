@@ -7,6 +7,7 @@ void hello(std::string str) {
     std::cout << str << '\n';
 }
 
+
 int main() {
 	// hello() takes a string argument
 	std::thread thr(hello, "Hello, Thread!");
